@@ -1,2 +1,2 @@
 # landingpage
-Just a landing page built with React and using Flexbox.
+Just a landing page built with HTML and CSS using Flexbox.

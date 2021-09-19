@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Lato, sans-serif;
+}
+
+.container {
+    display: flex;
+    background-color: rgb(26, 1, 1);
+    padding: 2px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    color: white;
+    height: 12vh;
+    align-items: center;
+    padding: 2px 0px;
+    justify-content: space-between;
+}
+
+h2 {
+    margin-right: 50px;
+}
+
+.navLinks {
+    list-style: none;
+    display: flex;
+}
+
+.navLinks li:hover {
+    background-color: blanchedalmond;
+    padding: 6px 20px;
+    color: black;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+
+
+.login:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+.signup {
+    color: black;
+    background-color: white;
+    border-radius: 1rem;
+    margin-left: 10px;
+    font-weight: bolder;
+
+}
+
+.signup:hover {
+    background-color: rgb(231, 226, 219);
+    color: black;
+    font-weight: bolder;
+}
+
+.login {
+    color: white;
+    border: 2px solid white;
+    border-radius: 1.2rem;
+}
+
+li {
+    margin: 10px 20px;
+    font-size: 14px;
+}
+
+.intro {
+    background-color: rgb(26, 1, 1);
+    padding: 5rem;
+    color: white;
+    height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 6rem;
+    flex: 1;
+}
+
+.left-content h3 {
+    font-size: 3rem;
+    width: 30rem;
+    line-height: 2.8rem;
+    margin-bottom: 20px;
+}
+
+.left-content p {
+    width: 30rem;
+    margin-bottom: 30px;
+
+}
+
+.right-content img {
+    width: 600px;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.learnMoreBtn {
+    border: 2px solid white;
+    color: white;
+    margin-right: 20px;
+
+}
+
+.learnMoreBtn:hover {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+}
+
+.information {
+    padding: 3rem;
+}
+
+.information h3 {
+    padding: 10px 40px;
+    text-align: center;
+    font-size: 24px;
+}
+
+
+.information-items {
+    display: flex;
+    flex: 1;
+    gap: 100px;
+    margin: 20px
+}
+
+.information-items img {
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.quote p {
+    padding: 4rem;
+    font-style: normal;
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(197, 197, 197);
+}
+
+.quote span {
+    font-size: 1.3rem;
+}
+
+.quote {
+    text-align: center;
+}
+
+
+.newsletter {
+    display: flex;
+    padding: 8rem ;
+    justify-content: space-around;
+
+}
+
+.newsletter a {
+    color: white;
+    background-color: rgb(26, 1, 1);
+    font-weight: bold;
+    padding: 10px 20px;
+}
+
+.footer {
+    text-align: center;
+    background-color: rgb(26, 1, 1);
+    color: white;
+    padding: 1rem;
+}
